@@ -1,0 +1,61 @@
+{
+  "name": "education",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blockly/migrate": "^1.1.0",
+    "@devexpress/dx-react-scheduler": "^4.0.3",
+    "@devexpress/dx-react-scheduler-material-ui": "^4.0.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@jaredreisinger/react-crossword": "^5.2.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.7",
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "blockly": "^9.2.1",
+    "react": "^18.2.0",
+    "react-blockly": "^7.0.1",
+    "react-crossword": "^0.2.0",
+    "react-dom": "^18.2.0",
+    "react-flip-move": "^3.0.5",
+    "react-geogebra": "^1.2.4",
+    "react-mt-svg-lines": "^0.9.1",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-timer-hook": "^3.0.5",
+    "react-webcam": "^7.0.1",
+    "sweetalert2": "^11.4.8",
+    "swiper": "^9.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

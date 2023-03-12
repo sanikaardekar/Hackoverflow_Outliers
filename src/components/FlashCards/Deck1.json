@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "id": "1",
+            
+            "fields": {
+                "side1": "cos(A+B)",
+                "side2": "cosA cosB-sinA sinB"
+            }
+        },
+        {
+            "id": "2",
+            
+            "fields": {
+                "side1": "cos(A-B)",
+                "side2": "cosA cosB + sinA sinB"
+            }
+        },
+        {
+            "id": "3",
+            
+            "fields": {
+                "side1": "sin(A+B)",
+                "side2": "sinA cosB + cosA sinB"
+            }
+        },
+        {
+            "id": "4",
+            
+            "fields": {
+                "side1": "sin(A-B)",
+                "side2": "sinA cosB -cosA sinB"
+            }
+        }
+    ]
+}

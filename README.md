@@ -9,3 +9,5 @@ We also provide a calendar and video chat feature where students can schedule ev
 Our platform combines various features to help learn, understand and practise the learnings. Our website can be used by teenagers and adults to learn maths, coding and prepare for public speaking and interviews. The smooth UI ensures user-friendliness. Our application is heavily built on ReactJS and Django Rest framework which are popular and modular tools ensuring scalability and easy maintenance.<br>
 
 Video Link: https://youtu.be/qaKxXAlZUsM
+<br>
+presentation link: https://docs.google.com/presentation/d/1z7fIg23JEN7h6O9UtKTTvFOt4l58fMP_gdrAKAwCakA/edit?usp=sharing

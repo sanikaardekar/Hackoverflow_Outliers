@@ -5,7 +5,7 @@ import trigo from '../../static/trigo.jpg'
 import { Link } from "react-router-dom";
 export default function FlashCard() {
     return (
-        <Card sx={{ maxWidth: 345, margin: "100px" }}>
+        <Card sx={{ maxWidth: 345,paddingTop:"205px"}}>
             <CardMedia
                 sx={{ height: 140 }}
                 image={trigo}

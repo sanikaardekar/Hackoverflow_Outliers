@@ -6,7 +6,7 @@ const GeoGebra = () => {
     <>
     <Geogebra
         width="800"
-        height="600"
+        height="700"
         showMenuBar
         showToolBar
         showAlgebraInput

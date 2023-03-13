@@ -4,7 +4,7 @@ import Card from "../../components/UI/Card";
 const Mythology = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{paddingTop:"205px"}}>
         <div className="row">
           <Card
             title="Insights into Mythology"

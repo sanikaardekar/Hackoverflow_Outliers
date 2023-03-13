@@ -35,21 +35,22 @@ import Coding from './pages/Coding/Coding';
 import Contests from './pages/Coding/Contests';
 import GeoGebra from './pages/Maths/GeoGebra';
 import MythoDisplay from './pages/Mythology/MythoDisplay';
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/maths" element={<Maths />} />
-          <Route path="/geogebra" element={<GeoGebra />} />
+          <Route path="/maths" element={<><Navbar /><Maths /></>} />
+          <Route path="/geogebra" element={<><GeoGebra /></>} />
 
           <Route path="/videochat" element={<><Navbar /><VideoChat /></>} />
           <Route path="/math/flashcard" element={<><Navbar /><FlashCard /></>} />
           <Route path="/math/flashcard/deck1" element={<><Navbar /><Cards /></>} />
           <Route path="/interview" element={<><Navbar /><Interview /></>} />
           <Route path="/interview/main" element={<><Navbar /><Main /></>} />
-          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/calendar" element={<><Navbar /><Calendar /></>} />
           {/* <Route path="/login" element={<Login />} />
           <Route path="/" exact element={<Signup />} /> */}
 
@@ -69,11 +70,11 @@ function App() {
           <Route path="/contests" element={<><Navbar/><Contests /></>} />
 
           <Route path="/mythology" element={<><Navbar/><Mythology /></>} />
-          <Route path="/mythology/crossword" element={<><Crossword /></>} />
-          <Route path="/mythology/display" element={<><MythoDisplay /></>} />
+          <Route path="/mythology/crossword" element={<><Navbar/><Crossword /></>} />
+          <Route path="/mythology/display" element={<><Navbar/><MythoDisplay /></>} />
 
           <Route path="/" element={<><Navbar/>< Home/><Footer/></>} />
-          <Route path="/new" element={<><New/></>} />
+          <Route path="/profile" element={<><Navbar/><Profile/></>} />
         </Routes>
       </Router>
     </div>

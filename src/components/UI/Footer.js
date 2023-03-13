@@ -9,14 +9,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="copyright-text">
-              <p>Designed & Developed by Team Nekoma</p>
+              <p>Designed & Developed by Team Outliers</p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="footer-widget">
               <h4>Team</h4>
               <p>Rachana Yeldi</p>
-              <p>Shruti Prasad</p>
               <p>Sanika Ardekar</p>
             </div>
           </div>
@@ -62,11 +61,6 @@ const Footer = () => {
           <div className="col-lg-3">
             <div className="footer-widget">
               <h4>Project</h4>
-              <div className="logo">
-                {/* <Link to="/">
-                  <img src={logo} alt="logo" />
-                </Link> */}
-              </div>
               <p>
                 Visualizing the learning process to make it more efficient and
                 fun

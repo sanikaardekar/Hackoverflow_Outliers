@@ -100,7 +100,7 @@ const MythoCrossword = () => {
   };
 
   return (
-    <Crossword data={data}>
+    <Crossword data={data} style={{paddingTop:"205px"}}>
       <Grid>
         <Cell />
       </Grid>

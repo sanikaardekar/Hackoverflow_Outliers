@@ -66,7 +66,7 @@ const Contests = () => {
 
   return (
     <>
-      <div className="form-group">
+      <div className="form-group" style={{paddingTop:"205px"}}>
         <select
           placeholder="Select Platform"
           onChange={handleChange}

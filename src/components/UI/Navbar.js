@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <header className="default-header">
+      <header
+        className="default-header"
+        style={{ backgroundColor: "#7C32FF"}}
+      >
         <nav className="navbar navbar-expand-lg  navbar-light">
           <div className="container">
             <a className="navbar-brand" href="index.html">
@@ -28,7 +31,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav">
                 <li>
-                  <Link to="/home">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <Link to="/coding">Coding</Link>
@@ -41,13 +44,16 @@ const Navbar = () => {
                 </li>
 
                 <li>
-                  <Link to="/communication">Communication</Link>
+                  <Link to="/interview">Communication</Link>
                 </li>
                 <li>
-                  <Link to="/videochat">Video Call</Link>
+                  <Link to="/videochat">VideoChat</Link>
                 </li>
                 <li>
                   <Link to="/calendar">Calendar</Link>
+                </li>
+                <li>
+                  <Link to="/profile">Profile</Link>
                 </li>
               </ul>
             </div>
